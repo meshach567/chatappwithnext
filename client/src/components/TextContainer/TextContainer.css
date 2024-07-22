@@ -1,0 +1,17 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.activeItem {
+  color: #ffffff;
+  margin-right: 10px;
+}

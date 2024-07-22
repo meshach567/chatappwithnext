@@ -1,0 +1,46 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+}
+
+.messages {
+  flex: 1;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.joinInnerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.joinInput {
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
